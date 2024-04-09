@@ -51,12 +51,42 @@ main {
 
 .line {
 	display: flex;
-	width: 100vw;
+	width: 70vw;
 	height: 1px;
 	background-color: black;
-	margin-top: 50px;
+	margin-top: 40px;
+}
+
+.titles {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: left;
+	width: 100%;
+	font-size: 46px;
+	padding: 30px;
+}
+
+#right {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	padding-right: 30px;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main_child {
+	display: flex;
 }
 /* style html */
 
 /* Reference html */
-
