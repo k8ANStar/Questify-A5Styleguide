@@ -154,6 +154,15 @@ main {
     padding-top: 3%;
 }
 
+.all-logos1{
+    max-width: 35%;
+    min-width: 35%;
+    width: 35%;
+    display:flex;
+    margin-left: 4%;
+    padding-top: 3%;
+}
+
 .subtitle{
     padding-left: 10%;
     width: 80%;
