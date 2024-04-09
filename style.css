@@ -1,9 +1,14 @@
+/* index html */
+
 html, body {
     margin: 0;
     width: 100vw;
     max-width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
-    background-color: #faf6ea;
+    background-color: #f7f4f1;
     font-family: "Sora", sans-serif;
 }
+
+/* style html */
+
+/* Reference html */
