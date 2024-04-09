@@ -32,9 +32,6 @@ main {
     color: #ffc805;
 }
 
-.palette {
-    width: 700px;
-}
 
 .footer {
     display: flex;
@@ -100,6 +97,41 @@ main {
 
 /* style html */
 
+#colour, #typography, #iconography, #graphics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.colour_child {
+    display: flex;
+}
+
+#colour_right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#colour_left {
+    width: 60%;
+}
+
+#colour img, #typography img, #graphics img, #type_rules img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#colour_left img {
+    width: 90%;
+    object-fit: contain;
+    overflow: auto
+}
 /* Reference html */
 
 #content {
