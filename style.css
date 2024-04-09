@@ -69,6 +69,11 @@ main {
 	padding: 30px;
 }
 
+.title_text{
+    font-family: "Sora";
+    font-weight: bold;
+}
+
 #right {
 	width: 30%;
 	display: flex;
