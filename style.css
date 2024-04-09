@@ -112,5 +112,11 @@ main {
 
 /* Reference html */
 
-
+#content {
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
 
