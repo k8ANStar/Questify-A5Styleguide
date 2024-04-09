@@ -69,9 +69,9 @@ main {
 	padding: 30px;
 }
 
-.title_text{
-    font-family: "Sora";
-    font-weight: bold;
+.title_text {
+	font-family: "Sora";
+	font-weight: bold;
 }
 
 #right {
@@ -103,7 +103,7 @@ main {
 	display: flex;
 }
 
-/* style html */
+/* color html */
 
 #colour,
 #typography,
@@ -145,6 +145,15 @@ main {
 	width: 90%;
 	object-fit: contain;
 	overflow: auto;
+}
+
+.button-images {
+	display: grid;
+	grid-template-columns: auto;
+}
+
+.button-box {
+	margin-left: 50px;
 }
 /* Reference html */
 
