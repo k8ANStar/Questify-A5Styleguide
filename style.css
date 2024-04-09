@@ -1,92 +1,116 @@
 /* index html */
 
+
 html,
 body,
 main {
-	margin: 0;
-	max-width: 100vw;
-	height: 100vh;
-	background-color: #f7f4f1;
-	font-family: "Sora", sans-serif;
+   margin: 0;
+   max-width: 100vw;
+   height: 100vh;
+   background-color: #f7f4f1;
+   font-family: "Sora", sans-serif;
 }
 .nav {
-	color: white;
-	background-color: #1c6c5f;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	border: 2px solid #1c6c5f;
+   color: white;
+   background-color: #1c6c5f;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 2px solid #1c6c5f;
 }
 .text {
-	padding: 20px;
-	color: white;
+   padding: 20px;
+   color: white;
 }
+
 
 .text:hover {
-	color: #ffc805;
+   color: #ffc805;
 }
+
 
 .text:active {
-	color: #ffc805;
+   color: #ffc805;
 }
 .palette {
-	width: 700px;
+   width: 700px;
 }
+
 
 .footer {
-	display: flex;
-	background-color: #1c6c5f;
-	color: white;
+   display: flex;
+   background-color: #1c6c5f;
+   color: white;
 }
+
 
 .logo-image {
-	display: flex;
-	width: 90px;
-	height: 80px;
+   display: flex;
+   width: 90px;
+   height: 80px;
 }
+
 
 .logos {
-	display: flex;
+   display: flex;
 }
+
 
 .line {
-	display: flex;
-	width: 70vw;
-	height: 1px;
-	background-color: black;
-	margin-top: 40px;
+   display: flex;
+   width: 70vw;
+   height: 1px;
+   background-color: black;
+   margin-top: 40px;
 }
+
 
 .titles {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: left;
-	width: 100%;
-	font-size: 46px;
-	padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: left;
+   width: 100%;
+   font-size: 46px;
+   padding: 30px;
 }
+
 
 #right {
-	width: 40%;
-	display: flex;
-	flex-direction: column;
-	padding-right: 30px;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   padding-right: 30px;
 }
+
+
+
+
+#logo_colour, #logo_bw {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
 
 #main {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
 }
 
+
 .main_child {
-	display: flex;
+   display: flex;
 }
 /* style html */
 
+
 /* Reference html */
+
+
+
