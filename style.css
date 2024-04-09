@@ -63,8 +63,9 @@ main {
 	align-items: flex-start;
 	justify-content: left;
 	width: 100%;
-	font-size: 46px;
+	font-size: 26px;
 	padding: 30px;
+	
 }
 
 #right {
@@ -90,3 +91,8 @@ main {
 /* style html */
 
 /* Reference html */
+
+.ref {
+	font-family: "Sora", sans-serif;
+	
+}
