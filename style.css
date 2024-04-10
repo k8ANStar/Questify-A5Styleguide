@@ -120,17 +120,6 @@ main {
 	display: flex;
 }
 
-#colour_right {
-	width: 40%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-#colour_left {
-	width: 60%;
-}
-
 #colour img,
 #typography img,
 #graphics img,
@@ -142,7 +131,6 @@ main {
 }
 
 #colour_left img {
-	width: 90%;
 	object-fit: contain;
 	overflow: auto;
 }
@@ -154,6 +142,11 @@ main {
 
 .button-box {
 	margin-left: 50px;
+}
+
+.color-test {
+	width: 650px;
+	height: 230px;
 }
 /* Reference html */
 
@@ -168,19 +161,16 @@ main {
 .all-logos {
 	max-width: 50%;
 	min-width: 40%;
-	width: 40%;
+
 	display: flex;
 	margin-left: 4%;
 	padding-top: 3%;
 }
 
 .all-logos1 {
-	max-width: 35%;
-	min-width: 35%;
-	width: 35%;
+	width: 200px;
+	height: 200px;
 	display: flex;
-	margin-left: 4%;
-	padding-top: 3%;
 }
 
 .subtitle {
@@ -272,54 +262,64 @@ main {
 
 /* typography css*/
 
-#typography_child, #icon_child, #graphics_child, #accessibility_child {
-    display: flex;
+#typography_child,
+#icon_child,
+#graphics_child {
+	display: flex;
 }
 
 #typography_left {
-    width: 50%;
-    padding-left: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	width: 50%;
+	padding-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #typography_right {
-    width: 20%;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 150px;
+	width: 20%;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 150px;
 }
 
 #typography_child {
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
-
 
 #font_title {
-    display:flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 #font_cont,
 #font_cont2,
 #font_cont3 {
-    display:flex;
-    flex-direction: row;
-    margin-left:50px;
-    margin-top: 50px;
-    margin-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
 }
 
 #font_cont,
 #font_cont2,
 #font_cont3 {
-    display:flex;
-    flex-direction: row;
-    margin-left:50px;
-    margin-top: 50px;
-    margin-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.all-examples {
+	width: 700px;
+	height: 500px;
+}
+
+.accessibility {
+	display: flex;
 }
