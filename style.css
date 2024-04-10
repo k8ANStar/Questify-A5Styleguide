@@ -215,8 +215,10 @@ main {
 	margin-left: 20px;
 	text-decoration: none;
 	color: black;
+	max-width: 300px;
 }
 
+  
 @font-face {
 	font-family: "PaytoneOne";
 	src: url("/fonts/PaytoneOne-Regular.ttf") format("truetype");
