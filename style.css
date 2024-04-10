@@ -312,3 +312,73 @@ main {
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
+#font_cont,
+#font_cont2 {
+    display:flex;
+    flex-direction: row;
+    margin-left:50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#font_cont2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+}
+
+#typeface > p,
+#textsize > p {
+    font-size:38px;
+}
+
+#typeface,
+#font_title,
+#textsize_title {
+    width:500px;
+}
+
+#textsize {
+	display: grid;
+	grid-template-rows: 80px 80px 80px;
+	grid-template-columns: 150px 150px;
+    align-items: center;
+    width:500px;
+}
+
+#heading1,
+#heading2,
+#heading3,
+#heading4,
+#heading5 {
+    width:350px;
+}
+
+#font_des {
+    width:500px;
+}
+
+#heading1 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
+
+#heading2 p {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#heading3 p {
+    font-size: 18px;
+    vertical-align: text-top;
+}
+
+#heading4 p {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
+#heading5 p {
+    font-size: 30px;
+    vertical-align: text-top;
+}
