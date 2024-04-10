@@ -4,10 +4,10 @@ html,
 body,
 main {
 	margin: 0;
-    width: 100vw;
+	width: 100vw;
 	max-width: 100vw;
 	height: 100vh;
-    overflow-x: hidden;
+	overflow-x: hidden;
 	background-color: #f7f4f1;
 	font-family: "Sora", sans-serif;
 }
@@ -100,26 +100,25 @@ main {
 	display: flex;
 }
 
-#text{
-    padding-right: 80px;
+#text {
+	padding-right: 80px;
 }
 
-#text1{
-    padding-left: 80px;
-    margin-left: 80px;
+#text1 {
+	padding-left: 80px;
+	margin-left: 80px;
 }
 
-#favi{
-    display: flex;
-    justify-content: center;
-    margin-right: 33em;
-   
+#favi {
+	display: flex;
+	justify-content: center;
+	margin-right: 33em;
 }
 
 .align {
-    display: inline-block;
-    padding-left: 40px;
-    margin-left: 50px;
+	display: inline-block;
+	padding-left: 40px;
+	margin-left: 50px;
 }
 
 .all-logos {
@@ -161,7 +160,6 @@ main {
 }
 
 .color-test {
-	width: 650px;
 	height: 230px;
 }
 
@@ -178,7 +176,6 @@ main {
 	display: flex;
 	align-items: center;
 }
-
 
 .subtitle {
 	padding-left: 10%;
@@ -209,6 +206,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	font-size: 23px;
+	margin-left: 20px;
 	text-decoration: none;
 	color: black;
 }
@@ -286,32 +284,32 @@ main {
 
 
 #font_cont2 {
-    font-family: 'PaytoneOne', sans-serif;
-    font-size: 24px;
+	font-family: "PaytoneOne", sans-serif;
+	font-size: 24px;
 }
 
-#font_cont3{
-    font-family: "LuckiestGuy", sans-serif;
-    font-size: 24px;
+#font_cont3 {
+	font-family: "LuckiestGuy", sans-serif;
+	font-size: 24px;
 }
 
 #typeface > p,
 #textsize > p {
-    font-size:38px;
+	font-size: 38px;
 }
 
 #typeface,
 #font_title,
 #textsize_title {
-    width:500px;
+	width: 500px;
 }
 
 #textsize {
 	display: grid;
 	grid-template-rows: 80px 80px 80px;
 	grid-template-columns: 150px 150px;
-    align-items: center;
-    width:500px;
+	align-items: center;
+	width: 500px;
 }
 
 #heading1,
@@ -320,12 +318,12 @@ main {
 #heading4,
 #heading5,
 #heading6 {
-    width:350px;
+	width: 350px;
 }
 
 #font_des,
 #font_des2 {
-    width:500px;
+	width: 500px;
 }
 
 
@@ -343,20 +341,34 @@ main {
 }
 
 #heading4 p {
-    font-size: 16px;
-    vertical-align: text-top;
+	font-size: 16px;
+	vertical-align: text-top;
 }
 
 #heading5 p {
-    font-size: 36px;
-    vertical-align: text-top;
+	font-size: 36px;
+	vertical-align: text-top;
 }
 
-#heading6 p{
-    font-size: 80px;
-    vertical-align: text-top;
+#heading6 p {
+	font-size: 80px;
+	vertical-align: text-top;
 }
 
-#bold_font{
-    font-family: "SoraBold";
+#bold_font {
+	font-family: "SoraBold";
+}
+
+.accessibility-one {
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+}
+
+.accessibility {
+	max-width: 60%;
+}
+
+.paragraph {
+	max-width: 60%;
 }
