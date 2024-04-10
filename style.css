@@ -323,7 +323,7 @@ main {
 }
 
 #font_cont2 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'PaytoneOne', sans-serif;
     font-size: 24px;
 }
 
@@ -381,4 +381,8 @@ main {
 #heading5 p {
     font-size: 30px;
     vertical-align: text-top;
+}
+
+#bold_font{
+    font-family: "SoraBold";
 }
