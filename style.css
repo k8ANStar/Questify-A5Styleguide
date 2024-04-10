@@ -114,9 +114,9 @@ main {
 }
 
 .align {
-	display: inline-block;
-	padding-left: 40px;
-	margin-left: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .all-logos {
@@ -129,14 +129,27 @@ main {
 }
 
 .all-logos1 {
-	max-width: 60%;
-	min-width: 35%;
-	width: 50%;
+	max-width: 100px;
+	min-width: 65px;
+	width: 90px;
+	max-height: 80px;
+	min-height: 55px;
+	height: 80px;
 	display: flex;
 	margin-left: 4%;
 	padding-top: 3%;
 }
+.vert{
+	display: flex;
+	padding-left: 70px;
+}
 
+.text_rules{
+	display: flex;
+	flex-direction: column;
+	margin-left: 6.75rem;
+	
+}
 /* color html */
 
 .colour_child {
