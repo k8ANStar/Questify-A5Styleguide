@@ -154,6 +154,7 @@ main {
 
 .color-test {
 	height: 230px;
+	display: inline-block;
 }
 
 .all-examples {
