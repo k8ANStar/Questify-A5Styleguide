@@ -4,8 +4,10 @@ html,
 body,
 main {
 	margin: 0;
+    width: 100vw;
 	max-width: 100vw;
 	height: 100vh;
+    overflow-x: hidden;
 	background-color: #f7f4f1;
 	font-family: "Sora", sans-serif;
 }
@@ -103,6 +105,46 @@ main {
 	display: flex;
 }
 
+#text{
+    padding-right: 80px;
+}
+
+#text1{
+    padding-left: 80px;
+    margin-left: 80px;
+}
+
+#favi{
+    display: flex;
+    justify-content: center;
+    margin-right: 33em;
+   
+}
+
+.align {
+    display: inline-block;
+    padding-left: 40px;
+    margin-left: 50px;
+}
+
+.all-logos {
+	max-width: 50%;
+	min-width: 40%;
+	width: 40%;
+	display: flex;
+	margin-left: 4%;
+	padding-top: 3%;
+}
+
+.all-logos1 {
+	max-width: 60%;
+	min-width: 35%;
+	width: 50%;
+	display: flex;
+	margin-left: 4%;
+	padding-top: 3%;
+}
+
 /* color html */
 
 #colour,
@@ -158,20 +200,6 @@ main {
 	align-items: center;
 }
 
-.all-logos {
-	max-width: 50%;
-	min-width: 40%;
-
-	display: flex;
-	margin-left: 4%;
-	padding-top: 3%;
-}
-
-.all-logos1 {
-	width: 200px;
-	height: 200px;
-	display: flex;
-}
 
 .subtitle {
 	padding-left: 10%;
@@ -262,10 +290,8 @@ main {
 
 /* typography css*/
 
-#typography_child,
-#icon_child,
-#graphics_child {
-	display: flex;
+#typography_child, #icon_child, #graphics_child {
+    display: flex;
 }
 
 #typography_left {
@@ -322,4 +348,81 @@ main {
 
 .accessibility {
 	display: flex;
+}
+
+#font_cont2 {
+    font-family: 'PaytoneOne', sans-serif;
+    font-size: 24px;
+}
+
+#font_cont3{
+    font-family: "LuckiestGuy", sans-serif;
+    font-size: 24px;
+}
+
+#typeface > p,
+#textsize > p {
+    font-size:38px;
+}
+
+#typeface,
+#font_title,
+#textsize_title {
+    width:500px;
+}
+
+#textsize {
+	display: grid;
+	grid-template-rows: 80px 80px 80px;
+	grid-template-columns: 150px 150px;
+    align-items: center;
+    width:500px;
+}
+
+#heading1,
+#heading2,
+#heading3,
+#heading4,
+#heading5,
+#heading6 {
+    width:350px;
+}
+
+#font_des,
+#font_des2 {
+    width:500px;
+}
+
+#heading1 p {
+    font-size: 36px;
+    vertical-align: text-top;
+}
+
+#heading2 p {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#heading3 p {
+    font-size: 20px;
+    vertical-align: text-top;
+}
+
+#heading4 p {
+    font-size: 16px;
+    vertical-align: text-top;
+}
+
+#heading5 p {
+    font-size: 36px;
+    vertical-align: text-top;
+}
+
+#heading6 p{
+    font-size: 80px;
+    vertical-align: text-top;
+}
+
+#bold_font{
+    font-family: "SoraBold";
 }
