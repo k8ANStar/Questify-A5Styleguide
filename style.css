@@ -298,7 +298,7 @@ main {
 
 /* typography css*/
 
-#typography_child, #icon_child, #graphics_child, #accessibility_child {
+#typography_child, #icon_child, #graphics_child {
     display: flex;
 }
 
@@ -348,4 +348,81 @@ main {
     margin-left:50px;
     margin-top: 50px;
     margin-bottom: 70px;
+}
+
+#font_cont2 {
+    font-family: 'PaytoneOne', sans-serif;
+    font-size: 24px;
+}
+
+#font_cont3{
+    font-family: "LuckiestGuy", sans-serif;
+    font-size: 24px;
+}
+
+#typeface > p,
+#textsize > p {
+    font-size:38px;
+}
+
+#typeface,
+#font_title,
+#textsize_title {
+    width:500px;
+}
+
+#textsize {
+	display: grid;
+	grid-template-rows: 80px 80px 80px;
+	grid-template-columns: 150px 150px;
+    align-items: center;
+    width:500px;
+}
+
+#heading1,
+#heading2,
+#heading3,
+#heading4,
+#heading5,
+#heading6 {
+    width:350px;
+}
+
+#font_des,
+#font_des2 {
+    width:500px;
+}
+
+#heading1 p {
+    font-size: 36px;
+    vertical-align: text-top;
+}
+
+#heading2 p {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#heading3 p {
+    font-size: 20px;
+    vertical-align: text-top;
+}
+
+#heading4 p {
+    font-size: 16px;
+    vertical-align: text-top;
+}
+
+#heading5 p {
+    font-size: 36px;
+    vertical-align: text-top;
+}
+
+#heading6 p{
+    font-size: 80px;
+    vertical-align: text-top;
+}
+
+#bold_font{
+    font-family: "SoraBold";
 }
